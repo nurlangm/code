@@ -1,0 +1,33 @@
+using System;
+
+namespace ssss
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 20;
+            int b = 40;
+
+            int i = a;
+            while (i <= b)
+            {
+                if (i % 2 == 0)
+                {
+                    Console.WriteLine(i);
+                }
+                i++;
+            }
+
+            
+                 
+
+
+        }
+        
+
+
+    }
+}
+
+
