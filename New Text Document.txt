@@ -1,0 +1,29 @@
+using System;
+
+namespace Task1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] eded = { 12, 14, 62, 46, 27, 85, 23, 145, 634, 123, 153, 731 };
+            
+            Console.WriteLine("En boyuk eded"+" "+Boyuk(eded));
+
+        }
+        static int Boyuk(params int[] arr)
+        {
+            int max = 0;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] > max)
+                {
+                    max = arr[i];
+                }
+
+            }
+            return max;
+        }
+
+    }
+}
